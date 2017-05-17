@@ -8,6 +8,8 @@
 ## get the value of the matrix
 ## set the value of the inverse
 ## get the value of the inverse
+## <<- is to change the variable value in a different environment from the current one
+## matrix(aMatrix) will reshape the aMatrix into a vector
 
 makeCacheMatrix <- function(x = matrix()) {
 	xi <- NULL
